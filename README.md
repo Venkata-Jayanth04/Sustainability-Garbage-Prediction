@@ -58,3 +58,4 @@ Dataset: Garbage Dataset with 10 classes (battery, biological, cardboard, clothe
 ## 📊 **Training Results**
 
 ### ### 📈 Accuracy & Loss Curves
+![Training Curves](artifacts/training_curves.png)
