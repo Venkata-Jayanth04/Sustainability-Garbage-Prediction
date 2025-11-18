@@ -1,0 +1,34 @@
+{
+    "model_name": "EfficientNetB0",
+    "img_size": [
+        224,
+        224
+    ],
+    "batch_size_used": 16,
+    "epochs_head": 30,
+    "epochs_finetune": 15,
+    "unfreeze_last_layers": 30,
+    "class_names": [
+        "battery",
+        "biological",
+        "cardboard",
+        "clothes",
+        "glass",
+        "metal",
+        "paper",
+        "plastic",
+        "shoes",
+        "trash"
+    ],
+    "num_classes": 10,
+    "train_samples": "approx 80% of class counts (cleaned JPEG dataset)",
+    "val_samples": 1978,
+    "test_samples": 1968,
+    "test_accuracy": 0.9588414634146342,
+    "model_path_final": "/kaggle/working/saved_models/garbage_efficientnet_final.h5",
+    "artifacts_dir": "/kaggle/working/artifacts",
+    "confusion_matrix_file": "/kaggle/working/artifacts/confusion_matrix.npy",
+    "training_history_file": "/kaggle/working/artifacts/history.npy",
+    "classification_report_file": "/kaggle/working/artifacts/class_report.txt",
+    "labels_file": "/kaggle/working/artifacts/labels.npy"
+}
