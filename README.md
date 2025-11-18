@@ -39,7 +39,7 @@ Dataset: Garbage Dataset with 10 classes (battery, biological, cardboard, clothe
 ### ✔️ Fine-Tuning  
 - Unfreeze last 30 layers  
 - Small learning rate (1e-5)  
-- Achieves **96%+ test accuracy**
+- Achieves **95%+ test accuracy**
 
 ---
 
